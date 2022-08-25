@@ -1,0 +1,22 @@
+{
+  "name": "mshu-react-hook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "982039620@qq.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "mobx": "^6.6.1",
+    "mstech-eslint-config": "^1.0.21",
+    "react": "^18.2.0"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "mobx": ">=6.0.0"
+  }
+}

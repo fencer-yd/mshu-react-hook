@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ES2015",
+      "dom"
+    ],
+    "module": "commonjs",
+    "outDir": "dist",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2015",
+    "allowJs": true
+  },
+  "include": [
+    "hooks/**/*",
+    "utils/**/*",
+    "type.d.ts"
+  ]
+}
