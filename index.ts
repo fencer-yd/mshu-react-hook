@@ -12,3 +12,4 @@ export { default as useDebounce } from './hooks/useDebounce';
 export { default as useModalVisible } from './hooks/useModalVisible';
 export { default as useReactionBool } from './hooks/useReactionBool';
 export { default as useComponentWillMount } from './hooks/useComponentWillMount';
+export { default as useSubject} from './hooks/useSubject';
