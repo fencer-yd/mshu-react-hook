@@ -19,12 +19,12 @@ export default function useSubject<T>(
   const observer = useCallback(
     ({ type: actionType, payload }: BaseObservable<T>) => {
       let _type: Type;
-      if (typeof type === 'function') {
-        _type = type();
+      if (typeof actionType === 'function') {
+        _type = actionType();
       } else {
-        _type = type;
+        _type = actionType;
       }
-      if (_type === actionType) {
+      if (_type === type) {
         callback(payload)
       }
     },
