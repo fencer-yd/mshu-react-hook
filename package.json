@@ -1,6 +1,6 @@
 {
   "name": "mshu-react-hook",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "index.ts",
   "scripts": {
@@ -15,12 +15,14 @@
     "react": "^18.2.0"
   },
   "dependencies": {
+    "@react-navigation/native": "^6.0.12",
     "mstech-subject": "^1.0.0",
     "rxjs": "^7.5.6"
   },
   "peerDependencies": {
     "mobx": ">=6.0.0",
-    "react": ">=17.0.0",
-    "mstech-subject": ">=1.0.0"
+    "mstech-subject": ">=1.0.0",
+    "@react-navigation/native": ">=6.0.0",
+    "react": ">=17.0.0"
   }
 }
